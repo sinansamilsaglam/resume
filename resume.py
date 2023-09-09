@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Sinan Saglam CV.pdf"
+resume_file = current_dir / "assets" / "Sinan_Saglam_CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
@@ -79,11 +79,11 @@ st.write("**Litum Technologies**")
 st.write("December 2022 - August 2023   | Izmir, Turkey")
 st.write(
     """
-- 🔹 We created Analytical Reporting Service and Machine Learning studies with Amazon real time location data
+- 🔹 Created Analytical Reporting Service and Machine Learning studies with Amazon real time location data
 - 🔹 Built ETL pipelines using technologies such as Python, C#, Microsoft SQL Server, Apache Cassandra and more
 - 🔹 Built microservices using .NET, .NET Entity Framework, SQL and more technologies
 - 🔹 Reduced response times by optimizing microservices
-- 🔹  I made classification and prediction on location data using Machine Learning Algorithms with Python
+- 🔹 Made classification and prediction on location data using Machine Learning Algorithms with Python
 """
 )
 
@@ -110,8 +110,10 @@ st.write(
 - 🔹SQL
 - 🔹.NET
 - 🔹Apache Cassandra
-- 🔹Microsoft SQL Server
 - 🔹Apache Spark
+- 🔹ETL
+- 🔹RDBMS
+- 🔹Microsoft SQL Server
 - 🔹Data Engineering
 - 🔹Machine Learning
 - 🔹Data Analysis
